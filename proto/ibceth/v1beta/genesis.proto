@@ -1,0 +1,9 @@
+syntax = "proto3";
+package ibceth.ibceth.v1beta1;
+
+option go_package = "github.com/mconcat/ibc-eth/x/ibceth/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+}
+
